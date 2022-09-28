@@ -1,0 +1,5 @@
+Welcome to Arduino language C.
+As its written in C language.
+Python coding language.
+Python with C.
+Python version 3.12.4

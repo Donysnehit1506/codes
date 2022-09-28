@@ -1,0 +1,17 @@
+import os
+fh=open("Clang.txt","r+")
+print(fh.read())
+fh.seek(30)
+print(fh.tell())
+print("---------------------")
+print(fh.read())
+print("==========================")
+fh.write("Python with C")
+print(fh.read())
+fh.seek(0,2)
+print(fh.tell())
+fh.write("\nPython coding language")
+print(fh.read())
+print(fh.tell())
+
+print(os.listdir())
